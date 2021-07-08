@@ -71,8 +71,9 @@ header .textos-header {
 .download {
     border: 2px solid #fff;
     height: 40px;
+    border: 30px;
     /*width: 150px;*/
-    margin: 30px;
+    /*margin: 30px;*/
     display: flex;
     align-items: center;
     text-align: center;
