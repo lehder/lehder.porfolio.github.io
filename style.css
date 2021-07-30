@@ -94,10 +94,10 @@ header .textos-header {
 .download a {
     text-decoration: none;
 }
-.dowload p:hover {
+.download p:hover {
     color: blue;
 }
-.dowload p:active {
+.download p:active {
     color: red;
 }
 
