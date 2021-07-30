@@ -44,6 +44,13 @@ nav > a {
 }
 nav > a:hover {
     text-decoration: underline;
+    color: darkblue;
+}
+nav > a:active {
+    color: red;
+}
+nav > a::after {
+    content: " | ";
 }
 header .textos-header {
     display: flex;
@@ -81,11 +88,17 @@ header .textos-header {
 }
 .download p{
     color: #fff;
-    font-size: 20px;
+    font-size: 25px;
     text-decoration: none;
 }
 .download a {
     text-decoration: none;
+}
+.dowload a:hover {
+    color: blue;
+}
+.dowload a:active {
+    color: red;
 }
 
 
