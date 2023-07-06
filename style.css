@@ -26,8 +26,8 @@ header {
     /* background: #43cea2;  /* fallback for old browsers */
 
 
-    background: -webkit-linear-gradient(to right, hsla(207, 59%, 49%, 0.507), hsla(198, 95%, 48%, 0.507)), url(./video-header/programando.jpg);
-    background: linear-gradient(to right, hsla(207, 89%, 49%, 0.507), hsla(210, 89%, 56%, 0.507)), url(./video-header/programando.jpg); 
+    background: -webkit-linear-gradient(to right, hsla(207, 59%, 49%, 0.507), hsla(198, 95%, 48%, 0.507)), url(./vectores/gafas.jpeg);
+    background: linear-gradient(to right, hsla(207, 89%, 49%, 0.507), hsla(210, 89%, 56%, 0.507)), url(./vectores/gafas.jpeg); 
     
     
     
@@ -66,7 +66,7 @@ header .textos-header {
     text-align: center;
 }
 .textos-header h1 {
-    font-size: 50px;
+    /* font-size: 50px; */
     color: #151414;
     font-weight: bolder;
     font-size: 3.5rem;
@@ -216,10 +216,10 @@ main .sobre-nosotros {
  }
  .cards .card img {
      width: 100px;
-     height: 100px;
+    /*  height: 100px; */
      object-fit: cover;
-     border: 3px solid #fff;
-     border-radius: 50%;
+    /*  border: 3px solid #fff; */
+     border-radius: 50%; 
      display: block;
  }
  .cards .card > .contenido-texto-card {
