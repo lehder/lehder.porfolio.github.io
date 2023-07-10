@@ -67,7 +67,7 @@ header .textos-header {
 }
 .textos-header h1 {
     /* font-size: 50px; */
-    color: #151414;
+    color: whitesmoke;
     font-weight: bolder;
     font-size: 3.5rem;
 }
@@ -75,13 +75,21 @@ header .textos-header {
     font-size: 30px;
     /* font-weight: 300px; */
     /* color: #fff; */
-    color: #151414;
+    color: whitesmoke;
     font-weight: bolder;
 }
 .wave {
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+.button {
+    border-radius: 50px;
+    width: 250px;
+    border: 1px solid rgb(24, 23, 23);
+    height: 40px;
+    background: #F2F2F2;
 }
 
 .download {
@@ -96,7 +104,7 @@ header .textos-header {
     justify-content: center;
 }
 .download p{
-    color: #fff;
+    color: #4d0686;
     font-size: 25px;
     text-decoration: none;
 }
@@ -391,7 +399,7 @@ footer {
      }
      .cards .card img{
          width: 90px;
-         height: 90px;
+        /*  height: 90px; */
      }
      .contenedor-footer {
          flex-direction: column;
