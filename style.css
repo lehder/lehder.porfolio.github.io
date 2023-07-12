@@ -293,6 +293,11 @@ footer {
     color: #ccc;
     border-bottom: 3px solid #af20d3;
 }
+.content-foo .link {
+    color: #ccc;
+    border-bottom: 3px solid #af20d3;
+    text-decoration: none;
+}
 .titulo-final {
     text-align: center;
     font-size: 24px;
@@ -417,6 +422,13 @@ footer {
          color: #ccc;
          border-bottom: 1px solid #f2f2f2;
          margin-bottom: 20px;
+     }
+     .content-foo .link {
+        color: #ccc;
+        border-bottom: 3px solid #af20d3;
+    }
+     .a {
+        color: #ccc;
      }
      .titulo-final {
          font-size: 20px;
