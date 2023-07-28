@@ -172,8 +172,8 @@ header .textos-header {
   margin: auto;
 }
 .btn-80 span {
-  font-weight: 900;
-  mix-blend-mode: difference;
+  font-weight: 700;
+  mix-blend-mode: plus-lighter;
 }
 .btn-80:before {
   background: #fff;
