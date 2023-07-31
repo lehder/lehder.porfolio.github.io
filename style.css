@@ -78,6 +78,7 @@ header .textos-header {
     /* color: #fff; */
     color: whitesmoke;
     font-weight: bolder;
+    margin: 0 30px;
 }
 .wave {
     position: absolute;
@@ -249,6 +250,12 @@ header .textos-header {
   }
 }
 
+/* Animaciones para el header */
+
+
+
+/*  */
+
 
 
 
@@ -309,6 +316,7 @@ main .sobre-nosotros {
     position: relative;
     cursor: pointer;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    background: rgb(114,159,238);
 }
 
 .imagen-port > img {
