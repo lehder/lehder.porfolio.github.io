@@ -316,7 +316,7 @@ main .sobre-nosotros {
     position: relative;
     cursor: pointer;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
-    background: rgb(107,98,255);
+    background: rgb(242,242,242);
 }
 
 .imagen-port > img {
@@ -358,7 +358,7 @@ main .sobre-nosotros {
 .batata-image {
     width: 90%;
     height: 30px;
-    padding: 50px 0;
+    padding: 65px 0;
 }
 
  /* Clients */
