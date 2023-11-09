@@ -68,7 +68,7 @@ header {
 
 .container.header {
     height: calc(80vh - 55px);
-    /* border: 3px solid #555555;  */   
+    border: 3px solid #555555;    
 }
 
 .barra-navegacion ul {
@@ -156,7 +156,7 @@ header {
 /* Particules */
 
 
-nav {
+/* nav {
     text-align: right;
     padding: 30px 50px 0 0;
 }
@@ -187,15 +187,12 @@ header .textos-header {
     border: 30px;
 }
 .textos-header h1 {
-    /* font-size: 50px; */
     color: whitesmoke;
     font-weight: bolder;
     font-size: 3.5rem;
 }
 .textos-header h2 {
     font-size: 30px;
-    /* font-weight: 300px; */
-    /* color: #fff; */
     color: whitesmoke;
     font-weight: bolder;
     margin: 0 30px;
@@ -205,7 +202,7 @@ header .textos-header {
     bottom: 0;
     width: 100%;
 }
-
+ */
 /* .button {
     border-radius: 50px;
     width: 250px;
@@ -214,12 +211,10 @@ header .textos-header {
     background: #F2F2F2;
 }*/
 
-.download {
+/* .download {
     border: 2px solid #fff;
     height: 40px;
     border: 30px;
-    /*width: 150px;*/
-    /*margin: 30px;*/
     display: flex;
     align-items: center;
     text-align: center;
@@ -238,11 +233,11 @@ header .textos-header {
 }
 .download p:active {
     color: red; 
-} 
+}  */
 
 /* Nuevo Button */
 
-.btn-80,
+/* .btn-80,
 .btn-80 *,
 .btn-80 :after,
 .btn-80 :before,
@@ -368,7 +363,7 @@ header .textos-header {
     opacity: 0;
     width: 100%;
   }
-}
+} */
 
 /* Animaciones para el header */
 
@@ -660,6 +655,9 @@ footer {
 }
 
 @media screen and (max-width:500px){
+    .container header {
+        border: 1px solid red;
+    }
     nav{
         text-align: center;
         padding: 30px 0 0 0;
@@ -675,6 +673,9 @@ footer {
         font-size: 20px;
     }
      /* About us */
+     
+
+     
 
      .imagen-about-us {
          margin-bottom: 60px;
@@ -734,5 +735,249 @@ footer {
      .titulo-final {
          font-size: 20px;
      }
+}
+
+@media screen and (max-width: 480px) {
+    /* Particules */
+
+    
+
+   header {
+      width: 1000px;
+      background-color:#000;
+      color: #fff;
+      font-size: 18px;
+      font-family: 'Lato', sans-serif;
+      font-weight: 300; 
+}
+
+
+
+
+
+    #particles-js {
+        height: 100vh; 
+        width: 100%;
+        position: fixed;
+        z-index: -1;
+    }
+    
+    .container {
+        width: 80%;
+        max-width: 1200px;
+        background-size: cover;
+        background-image: url('../img/bg-header3.jpeg');
+        background-position:center;
+        margin-left: auto; 
+        margin-right: auto;
+        margin-top: 15px;
+        padding: 20px 30px;
+        position: relative;
+        z-index: 99;
+        opacity: .85;
+    }
+    
+    .container.header {
+        width: 500px;
+        margin: 0 30px 0 30px;
+        height: calc(80vh - 55px);
+        /* border: 3px solid #555555;  */   
+    }
+    
+    .barra-navegacion ul {
+        display: flex; 
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .barra-navegacion li {
+        list-style: none;
+        display: inline-block;
+    }
+    
+    .barra-navegacion .logo { 
+        color:#3dff3e;
+        font-size: 50px;
+    }
+    
+    .barra-navegacion a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 19px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        text-transform: uppercase;
+        border-bottom: 1px solid transparent;
+        transition: .5s ease;
+    }
+    
+    .barra-navegacion a:hover {
+        color: #3dff3e;
+        border-bottom: 1px solid currentcolor;
+    }
+    
+    .contenido-descripcion {
+        width: 60%;
+        display: flex;
+        height: 100%;
+        align-items: center;
+    }
+    
+    .contenido-descripcion .titulo {
+        text-transform: uppercase;
+        letter-spacing: 5px;
+    }
+    
+    .contenido-descripcion .titulo span:first-child {
+        font-size: 50px; 
+        display: block;
+        font-weight: 300;
+    }
+    
+    .contenido-descripcion .titulo span:last-child {
+        font-weight: 900;
+        font-size: 50px;
+    }
+    
+    .contenido-descripcion .btn-link {
+        display: inline-block;
+        padding: 10px 20px;
+        margin: 25px 0;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #3dff3e;
+        border: 1px solid #555555;
+        animation: parpadeo 2s linear infinite;
+        transition: .7s ease;
+    }
+    
+    .contenido-descripcion .btn-link:hover {
+        border: 1px solid #3dff3e;
+        animation: none;
+    }
+    
+    @keyframes parpadeo  {
+        0%, 41%, 45%, 47%, 49.5%, 100%  { 
+            opacity: 1;
+        }
+    
+        42%, 44%, 46%,48%,  50%  { 
+            opacity: 0; 
+        }
+    }
+
+     /* Particules */
+
+    
+    
+    
+    .contenido-descripcion {
+        font-size: 1.5rem;
+    }
+    .titulo {
+        font-size: 1.0rem;
+    }
+    .contenido-descripcion .titulo {
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-size: .5rem;
+    }
+    .titulo {
+        font-size: 30px;
+    }
+
+    
+    .contenedor-sobre-nosotros{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+        
+    }
+    main .sobre-nosotros {
+        padding:  30px 0 30px 0;
+        /* background: #f2f2f2; */
+        background-color:#000;
+        margin: 30px;
+        width: 550px;
+    }
+
+    .contenido-textos h3 {
+        color: #3dff3e;
+        font-size: 1.5rem;
+    }
+    .contenido-textos p {
+        color: #fff;
+        font-size: 1.5rem;
+    }
+
+    
+    
+    .portafolio {
+        padding:  30px 0 30px 0;
+        /* margin: 0 150px 0 50px; */
+        width: 550px;
+        margin: 0 30px;
+     }
+     .contenedor {
+        margin: 0 0 0 0;
+        width: 550px;
+     }
+     .imagen-port {
+        height: 470px;
+     }
+     .imagen-port > img {
+        height: 250px;
+     }
+     .imagen-port p {
+        font-size: 1.3rem;
+     }
+
+     .cliente {
+        margin: 0 30 0 30;
+        width: 550px;
+     }
+     .cards {
+        margin: 0 40px;
+        width: 550px;
+
+     }
+     .cards .card img {
+        width: 110px;
+     }
+     .contenido-texto-card h4  {
+        color: #3dff3e;
+        font-size: 1.5rem;
+     }
+     .contenido-texto-card p {
+        font-size: 1.5rem;
+     }
+
+     .about-services {
+        margin: 0 30px;
+     }
+     .titulo h2 {
+        border: #3dff3e;
+        font-size: 1.5rem;
+     }
+     .servicio-ind h3 {
+        border: #3dff3e;
+        font-size: 1.5rem;
+     }
+     .servicio-ind p {
+        font-size: 1.2rem;
+     }
+
+     .footer { 
+        margin: 0 0 0 0;
+     }
+
+     
+     
+    
+}
+
+@media screen and (max-width:320px) {
+    
 }
 
