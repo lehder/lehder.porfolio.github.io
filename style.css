@@ -54,20 +54,22 @@ header {
 .container {
     width: 70%;
     max-width: 1200px;
-    background-size: cover;
-    background-image: url('../img/bg-header3.jpeg');
-    background-position:center;
+    background-size: 50rem;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-image: url('./img/sinfondo.png');
+    background-position: right;
     margin-left: auto; 
     margin-right: auto;
     margin-top: 15px;
     padding: 20px 30px;
     position: relative;
     z-index: 99;
-    opacity: .85;
+    opacity: .70;
 }
 
 .container.header {
-    height: calc(80vh - 55px);
+    height: calc(60vh - 55px);
     border: 3px solid #555555;    
 }
 
@@ -108,6 +110,7 @@ header {
     display: flex;
     height: 100%;
     align-items: center;
+    font-size: 1.5rem;
 }
 
 .contenido-descripcion .titulo {
@@ -383,9 +386,9 @@ header .textos-header {
 main .sobre-nosotros {
     padding:  30px 0 60px 0;
     /* background: #f2f2f2; */
-    background-color:#000;
+    background-color:#000000; 
     margin: 30px;
-    margin-left: 250px;
+    margin-left: 140px;
 }
 .contenedor-sobre-nosotros {
     display: flex;
@@ -427,6 +430,7 @@ main .sobre-nosotros {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    gap: 15px;
 }
 
 .imagen-port {
@@ -438,7 +442,7 @@ main .sobre-nosotros {
     cursor: pointer;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
     /* background: rgb(242,242,242); */
-    background: #5e5e5e;
+    /* background: #5e5e5e; */
 }
 
 .imagen-port > img {
@@ -453,7 +457,7 @@ main .sobre-nosotros {
     /* text-align: justify; */
     padding: 10px 10px 10px 10px;
     margin: 10px 10px 10px 10px;
-    background: #5e5e5e;
+    /* background: #5e5e5e; */
     color: #fafafa;
 }
 .hover-galeria {
@@ -492,7 +496,8 @@ main .sobre-nosotros {
      justify-content: space-evenly;
  }
  .cards .card {
-     background: hsla(273, 91%, 27%, 0.692);
+     /* background: hsla(273, 91%, 27%, 0.692); */
+     background: #9E9E9E;
      display: flex;
      width: 46%;
      height: 200px;
@@ -765,8 +770,8 @@ footer {
     .container {
         width: 80%;
         max-width: 1200px;
-        background-size: cover;
-        background-image: url('../img/bg-header3.jpeg');
+        background-size: 450px;
+        background-image: url('./img/sinfondo.png');
         background-position:center;
         margin-left: auto; 
         margin-right: auto;
@@ -774,13 +779,13 @@ footer {
         padding: 20px 30px;
         position: relative;
         z-index: 99;
-        opacity: .85;
+        opacity: .75;
     }
     
     .container.header {
-        width: 500px;
+        width: 450px;
         margin: 0 30px 0 30px;
-        height: calc(80vh - 55px);
+        height: calc(65vh - 55px);
         /* border: 3px solid #555555;  */   
     }
     
