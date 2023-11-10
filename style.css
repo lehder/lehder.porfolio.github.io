@@ -785,7 +785,7 @@ footer {
     .container.header {
         width: 450px;
         margin: 0 30px 0 30px;
-        height: calc(90vh - 55px);
+        height: calc(99vh - 55px);
         /* border: 3px solid #555555;  */   
     }
     
