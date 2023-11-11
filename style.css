@@ -548,10 +548,12 @@ main .sobre-nosotros {
 }
 .servicio-ind h3 {
     margin: 10px 0;
+    font-size: 1.5rem;
 }
 .servicio-ind p {
     font-weight: 300;
     text-align: justify;
+    font-size: 1.0rem;
 }
 /* Footer */
 
@@ -960,7 +962,7 @@ footer {
      }
 
      .about-services {
-        margin: 0 30px;
+        margin: 0 30px 0 10px;
      }
      .titulo h2 {
         border: #3dff3e;
@@ -968,10 +970,10 @@ footer {
      }
      .servicio-ind h3 {
         border: #3dff3e;
-        font-size: 1.5rem;
+        font-size: 1.8rem;
      }
      .servicio-ind p {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
      }
      
      /* .footer {
@@ -985,16 +987,12 @@ footer {
         width: 90%;
         justify-content: space-evenly;
         margin: auto;
-        margin-left: 95px;
+        margin-left: 80px;
         padding-bottom: 50px;
         border-bottom: 1px solid #ccc;
+        font-size: 1.4rem;
     }
-    .content-foo {
-        text-align: center;
-    }
-    .titulo-final {
-        margin-left: 95px;
-    }
+    
      
 
      
