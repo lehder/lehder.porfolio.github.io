@@ -68,7 +68,8 @@ header {
 }
 
 .container.header {
-    height: calc(60vh - 55px);
+    border-radius: 10px;
+    height: calc(115vh - 55px);
     border: 3px solid #555555;    
 }
 
@@ -129,6 +130,7 @@ header {
 }
 
 .contenido-descripcion .btn-link {
+    border-radius: 10px;
     display: inline-block;
     padding: 10px 20px;
     margin: 25px 0;
@@ -450,6 +452,7 @@ main .sobre-nosotros {
 
 .imagen-port > img {
     width: 100%;
+    border-radius: 10px 10px;
     /*height: 100%;*/
     object-fit: cover;
     display: block;
@@ -457,6 +460,7 @@ main .sobre-nosotros {
 }
 .imagen-port p {
     font-weight: 300;
+    border: 1px solid rgb(46, 46, 46);
     /* text-align: justify; */
     padding: 10px 10px 10px 10px;
     margin: 10px 10px 10px 10px;
@@ -469,9 +473,9 @@ main .sobre-nosotros {
     height: 100%;
     top: 0;
     transform: scale(0);
-    background: rgba(6, 248, 6, 0.7);
+    background: rgba(60, 60, 60, 0.7);
     transition: transform .5s;
-
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -501,6 +505,7 @@ main .sobre-nosotros {
  
  .cards .card {
      /* background: hsla(273, 91%, 27%, 0.692); */
+     border-radius: 10px;
      background: #313030;
      display: flex;
      width: 46%;
@@ -784,6 +789,7 @@ footer {
     }
     
     .container.header {
+        border-radius: 10px;
         width: 450px;
         margin: 20px 30px 0 30px;
         height: calc(120vh - 55px);
