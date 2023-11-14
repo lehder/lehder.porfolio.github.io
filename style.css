@@ -14,12 +14,19 @@ body {
     margin: auto;
     overflow: hidden;
 }
-.titulo {
+.titulo .animate__animated-animate__bounceInDown {
     color: #fff;
     font-size: 30px;
     text-align: center;
     margin-bottom: 60px;
 } 
+.titulo .animate__animated-animate__bounceInDown {
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 15s; /* don't forget to set a duration! */
+  }
 
 
 /* header {
@@ -111,6 +118,13 @@ header {
     height: 100%;
     align-items: center;
     font-size: 1.5rem;
+}
+.descripcion .animate__animated-animate__bounceInUp {
+    display: inline-block;
+    margin: 0 0.5rem;
+
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 15s; /* don't forget to set a duration! */
 }
 
 .contenido-descripcion .titulo {
@@ -795,6 +809,13 @@ footer {
         height: calc(120vh - 55px);
         border: 0;     
     }
+    .titulo .animate__animated-animate__bounceInDown {
+        display: inline-block;
+        margin: 0 0.5rem;
+      
+        animation: bounce; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 15s; /* don't forget to set a duration! */
+      }
     
     .barra-navegacion ul {
         display: flex; 
@@ -833,6 +854,13 @@ footer {
         display: flex;
         height: 100%;
         align-items: center;
+    }
+    .descripcion .animate__animated-animate__bounceInUp {
+        display: inline-block;
+        margin: 0 0.5rem;
+    
+        animation: bounce; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 15s; /* don't forget to set a duration! */
     }
     
     .contenido-descripcion .titulo {
