@@ -79,6 +79,13 @@ header {
     height: calc(115vh - 55px);
     border: 3px solid #555555;    
 }
+.fas .fa-biohazard .animate__animated-animate__bounceInRight {
+    display: inline-block;
+    margin: 0 0.5rem;
+
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 35s; /* don't forget to set a duration! */
+}
 
 .barra-navegacion ul {
     display: flex; 
