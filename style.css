@@ -982,11 +982,16 @@ footer {
         height: 470px;
      }
      .imagen-port > img {
-        height: 250px;
+        height: 350px;
      }
      .imagen-port p {
         font-size: 1.5rem;
      }
+     .imagen-port .batata-image {
+        border: 1px solid white;
+        width: 520px;
+        height: 70px;
+    }
 
      .cliente {
         margin: 0 30 0 30;
