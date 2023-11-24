@@ -14,7 +14,7 @@ body {
     margin: auto;
     overflow: hidden;
 }
-.titulo {
+.titulo .animate__animated-animate__bounceInDown {
     color: #fff;
     font-size: 30px;
     text-align: center;
@@ -24,6 +24,12 @@ body {
     color: #5dfe3a;
 }
 
+.titulo .animate__animated-animate__bounceInDown {
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 15s; /* don't forget to set a duration! */
+  }
 
 /* header {
     width: 100%;
@@ -75,6 +81,13 @@ header {
     height: calc(115vh - 55px);
     border: 3px solid #555555;    
 }
+.fas .fa-biohazard .animate__animated-animate__bounceInRight {
+    display: inline-block;
+    margin: 0 0.5rem;
+
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 35s; /* don't forget to set a duration! */
+}
 
 .barra-navegacion ul {
     display: flex; 
@@ -117,6 +130,22 @@ header {
 
     font-family: 'Inter',sans-serif;
     font-weight: 400;
+
+}
+.descripcion .animate__animated-animate__bounceInUp {
+    display: inline-block;
+    margin: 0 0.5rem;
+
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 15s; /* don't forget to set a duration! */
+}
+.descripcion .animate__animated-animate__bounceInUp {
+    display: inline-block;
+    margin: 0 0.5rem;
+
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 15s; /* don't forget to set a duration! */
+
 }
 
 .contenido-descripcion .titulo {
@@ -796,6 +825,14 @@ footer {
         z-index: 99;
         opacity: .75;
     }
+
+    .fas .fa-biohazard .animate__animated-animate__bounceInRight {
+        display: inline-block;
+        margin: 0 0.5rem;
+    
+        animation: bounce; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 35s; /* don't forget to set a duration! */
+    }
     
     .container.header {
         border-radius: 10px;
@@ -804,6 +841,13 @@ footer {
         height: calc(120vh - 55px);
         border: 0;     
     }
+    .titulo .animate__animated-animate__bounceInDown {
+        display: inline-block;
+        margin: 0 0.5rem;
+      
+        animation: bounce; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 15s; /* don't forget to set a duration! */
+      }
     
     .barra-navegacion ul {
         display: flex; 
@@ -842,6 +886,13 @@ footer {
         display: flex;
         height: 100%;
         align-items: center;
+    }
+    .descripcion .animate__animated-animate__bounceInUp {
+        display: inline-block;
+        margin: 0 0.5rem;
+    
+        animation: bounce; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 15s; /* don't forget to set a duration! */
     }
     
     .contenido-descripcion .titulo {
@@ -948,11 +999,16 @@ footer {
         height: 470px;
      }
      .imagen-port > img {
-        height: 250px;
+        height: 350px;
      }
      .imagen-port p {
         font-size: 1.5rem;
      }
+     .imagen-port .batata-image {
+        border: 1px solid white;
+        width: 520px;
+        height: 70px;
+    }
 
      .cliente {
         margin: 0 30 0 30;
