@@ -20,26 +20,16 @@ body {
     text-align: center;
     margin-bottom: 60px;
 } 
-<<<<<<< HEAD
-<<<<<<< HEAD
 .descripcion span {
     color: #5dfe3a;
 }
-=======
-=======
->>>>>>> 2319aa36a7945bea8ecc0c065309f4c7e45d6bd7
+
 .titulo .animate__animated-animate__bounceInDown {
     display: inline-block;
     margin: 0 0.5rem;
-  
     animation: bounce; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 15s; /* don't forget to set a duration! */
   }
-<<<<<<< HEAD
->>>>>>> 2319aa36a7945bea8ecc0c065309f4c7e45d6bd7
-=======
->>>>>>> 2319aa36a7945bea8ecc0c065309f4c7e45d6bd7
-
 
 /* header {
     width: 100%;
