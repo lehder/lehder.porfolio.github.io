@@ -130,6 +130,7 @@ header {
 
     font-family: 'Inter',sans-serif;
     font-weight: 400;
+<<<<<<< HEAD
 
 }
 .descripcion .animate__animated-animate__bounceInUp {
@@ -146,6 +147,8 @@ header {
     animation: bounce; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 15s; /* don't forget to set a duration! */
 
+=======
+>>>>>>> master
 }
 
 .contenido-descripcion .titulo {
@@ -650,6 +653,20 @@ footer {
     margin: 20px 0 0 0;
     color: #9e9797;
 }
+
+
+@media screen and (max-width: 1328px) {
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .container.header {
+        width: 750px;
+        margin-left: 50px;
+     } 
+    
+}
+
 @media  screen and (max-width:900px) {
     header{
         background-position: center;
@@ -704,6 +721,46 @@ footer {
         width: 90%;
     }
 }
+
+@media screen and (max-width: 768px) {
+     .container.header {
+        width: 650px;
+        height: 740px;
+     }
+     main .sobre-nosotros {
+        margin-left: auto;
+     }
+
+     /* Footer */
+     
+     .botton {
+        width: 90px;
+     }
+     .contenedor-footer {
+        width: 100%;
+     }
+}
+
+@media screen and (max-width: 600px) {
+   .container.header {
+      width: 450px;
+    }
+    /* footer {
+         border: 1px solid red; 
+    } */
+    .botton {
+        width: 90px;
+     }
+     /* .contenedor-footer {
+        /* border: 1px solid red; */
+        /* width: 90%; 
+     } */
+     .content-foo {
+        display: grid;
+        grid-template-columns: min-content;
+     }
+}
+
 
 @media screen and (max-width:500px){
     .container header {
@@ -791,8 +848,6 @@ footer {
 @media screen and (max-width: 480px) {
     /* Particules */
 
-    
-
    header {
       width: 1000px;
       background-color:#000;
@@ -800,10 +855,20 @@ footer {
       font-size: 18px;
       font-family: 'Lato', sans-serif;
       font-weight: 300; 
+<<<<<<< HEAD
+    }
+    .descripcion span {
+        color: #42ff49;
+    }
+=======
 }
 .descripcion span {
     color: #42ff49;
 }
+<<<<<<< HEAD
+>>>>>>> refs/remotes/origin/master
+=======
+>>>>>>> master
     #particles-js {
         height: 100vh; 
         width: 100%;
