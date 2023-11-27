@@ -23,13 +23,23 @@ body {
 .descripcion span {
     color: #5dfe3a;
 }
+
 .titulo .animate__animated-animate__bounceInDown {
     display: inline-block;
     margin: 0 0.5rem;
-  
     animation: bounce; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 15s; /* don't forget to set a duration! */
   }
+
+/* header {
+    width: 100%;
+    height: 700px;
+    background: -webkit-linear-gradient(to right, hsla(207, 59%, 49%, 0.507), hsla(198, 95%, 48%, 0.507)), url(./vectores/gafas.jpeg);
+    background: linear-gradient(to right, hsla(207, 89%, 49%, 0.507), hsla(210, 89%, 56%, 0.507)), url(./vectores/gafas.jpeg); 
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+} */
 
 /* Particules */
 
@@ -116,7 +126,11 @@ header {
     display: flex;
     height: 100%;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+
+    font-family: 'Inter',sans-serif;
+    font-weight: 400;
+
 }
 .descripcion .animate__animated-animate__bounceInUp {
     display: inline-block;
@@ -124,6 +138,14 @@ header {
 
     animation: bounce; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 15s; /* don't forget to set a duration! */
+}
+.descripcion .animate__animated-animate__bounceInUp {
+    display: inline-block;
+    margin: 0 0.5rem;
+
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 15s; /* don't forget to set a duration! */
+
 }
 
 .contenido-descripcion .titulo {
@@ -830,10 +852,17 @@ footer {
       font-size: 18px;
       font-family: 'Lato', sans-serif;
       font-weight: 300; 
+<<<<<<< HEAD
     }
     .descripcion span {
         color: #42ff49;
     }
+=======
+}
+.descripcion span {
+    color: #42ff49;
+}
+>>>>>>> refs/remotes/origin/master
     #particles-js {
         height: 100vh; 
         width: 100%;
