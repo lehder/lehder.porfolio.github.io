@@ -130,6 +130,7 @@ header {
 
     font-family: 'Inter',sans-serif;
     font-weight: 400;
+<<<<<<< HEAD
 
 }
 .descripcion .animate__animated-animate__bounceInUp {
@@ -146,6 +147,8 @@ header {
     animation: bounce; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 15s; /* don't forget to set a duration! */
 
+=======
+>>>>>>> master
 }
 
 .contenido-descripcion .titulo {
@@ -862,7 +865,10 @@ footer {
 .descripcion span {
     color: #42ff49;
 }
+<<<<<<< HEAD
 >>>>>>> refs/remotes/origin/master
+=======
+>>>>>>> master
     #particles-js {
         height: 100vh; 
         width: 100%;
