@@ -853,20 +853,11 @@ footer {
       font-size: 18px;
       font-family: 'Lato', sans-serif;
       font-weight: 300; 
-<<<<<<< HEAD
-    }
-    .descripcion span {
-        color: #42ff49;
-    }
-=======
+
 }
 .descripcion span {
     color: #42ff49;
 }
-<<<<<<< HEAD
->>>>>>> refs/remotes/origin/master
-=======
->>>>>>> master
     #particles-js {
         height: 100vh; 
         width: 100%;
