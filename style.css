@@ -1112,7 +1112,7 @@ footer {
         width: 90%;
         justify-content: space-evenly;
         margin: auto;
-        margin-left: 170px;
+        margin-left: 110px;
         padding-bottom: 50px;
         border-bottom: 1px solid #ccc;
         font-size: 1.4rem;
@@ -1122,6 +1122,10 @@ footer {
     .content-foo {
         margin: 40px 0;
         text-align: unset;
+        display: block;
+    }
+    .content-foo h4 {
+        color: #42ff49;
     }
     .titulo-final {
         margin-left: 150px;
