@@ -1112,10 +1112,19 @@ footer {
         width: 90%;
         justify-content: space-evenly;
         margin: auto;
-        margin-left: 80px;
+        margin-left: 170px;
         padding-bottom: 50px;
         border-bottom: 1px solid #ccc;
         font-size: 1.4rem;
+        /* display: flex;
+        flex-direction: row; */
+    }
+    .content-foo {
+        margin: 40px 0;
+        text-align: unset;
+    }
+    .titulo-final {
+        margin-left: 150px;
     }
     
      
