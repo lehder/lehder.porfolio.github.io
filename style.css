@@ -155,10 +155,10 @@ header {
     text-transform: uppercase;
     letter-spacing: 5px;
 
-    background-image: url('./img/descarga-1.jpeg');
+    background-image: url('./img/descarga2.avif');
     color: transparent;
     background-size: cover;
-	background-position-y: 200px;
+	background-position-y: 300px;
 	
 	background-clip: text;
 	-webkit-background-clip: text;
