@@ -29,8 +29,13 @@ body {
     margin: 0 0.5rem;
     animation: bounce; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 15s; /* don't forget to set a duration! */
-  }
 
+   /*  background: linear-gradient(to right, rgb(0, 168, 253));
+     background-size: 200% auto;
+     -webkit-background-clip: text; 
+     -webkit-text-fill-color:transparent;  */
+  }
+ 
 /* header {
     width: 100%;
     height: 700px;
@@ -130,7 +135,6 @@ header {
 
     font-family: 'Inter',sans-serif;
     font-weight: 400;
-
 }
 .descripcion .animate__animated-animate__bounceInUp {
     display: inline-block;
@@ -145,13 +149,21 @@ header {
 
     animation: bounce; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 15s; /* don't forget to set a duration! */
-
-
 }
 
 .contenido-descripcion .titulo {
     text-transform: uppercase;
     letter-spacing: 5px;
+
+    background-image: url('./img/descarga-1.jpeg');
+    color: transparent;
+    background-size: cover;
+	background-position-y: 200px;
+	
+	background-clip: text;
+	-webkit-background-clip: text;
+
+	-webkit-text-fill-color: transparent;
 }
 
 .contenido-descripcion .titulo span:first-child {
