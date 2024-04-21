@@ -6,6 +6,7 @@ body {
     font-family: 'open sans';  
     /* background-color: rgb(39,39,39); */  
     background-color:#000;
+    font-family: Bebas Neue, sans-serif;
 }
 .contenedor {
     padding: 60px 0;
@@ -83,8 +84,9 @@ header {
 
 .container.header {
     border-radius: 10px;
-    height: calc(115vh - 55px);
-    border: 3px solid #555555;    
+    /*height: calc(115vh - 55px);*/
+    height: calc(70vh - 55px);
+    /*border: 3px solid #555555;*/ 
 }
 .fas .fa-biohazard .animate__animated-animate__bounceInRight {
     display: inline-block;
@@ -475,8 +477,16 @@ main .sobre-nosotros {
 /* Galeria */
 
 .portafolio {
-    background: #f2f2f2;
-    background-color:#000;
+   /* background: #f2f2f2;
+    background-color:#000;*/
+    background: #1091AA;
+}
+.titulo1 {
+
+    color: #ffffff;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    padding: 30px;
 }
 
 .galeria-port {
@@ -487,6 +497,7 @@ main .sobre-nosotros {
 }
 
 .imagen-port {
+    border-radius: 10px;
     width: 24%;
     margin-bottom: 10px;
     height: 350px;
@@ -500,6 +511,7 @@ main .sobre-nosotros {
 
 .imagen-port > img {
     width: 100%;
+    border: 1px solid rgb(119, 119, 119);
     border-radius: 10px 10px;
     /*height: 100%;*/
     object-fit: cover;
@@ -508,7 +520,8 @@ main .sobre-nosotros {
 }
 .imagen-port p {
     font-weight: 300;
-    border: 1px solid rgb(46, 46, 46);
+    font-size: large;
+   /* border: 1px solid rgb(46, 46, 46);*/
     /* text-align: justify; */
     padding: 10px 10px 10px 10px;
     margin: 10px 10px 10px 10px;
