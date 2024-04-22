@@ -1068,14 +1068,15 @@ footer {
         padding:  30px 0 30px 0;
         /* margin: 0 150px 0 50px; */
         width: 550px;
-        margin: 0 30px;
+        margin: 0 30px 0 17px;
      }
      .contenedor {
         margin: 0 0 0 0;
         width: 550px;
      }
      .imagen-port {
-        height: 470px;
+        /* height: 470px; */
+        height: 510px;
      }
      .imagen-port > img {
         height: 350px;
