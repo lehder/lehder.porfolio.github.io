@@ -870,6 +870,9 @@ footer {
 
 @media screen and (max-width: 480px) {
     /* Particules */
+    body {
+        font-family: Bebas Neue, sans-serif;
+    }
 
    header {
       width: 1000px;
