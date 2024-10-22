@@ -920,7 +920,7 @@ footer {
         border-radius: 10px;
         width: 450px;
         margin: 20px 30px 0 30px;
-        height: calc(120vh - 55px);
+        height: calc(60vh - 55px);
         border: 0;     
     }
     .titulo .animate__animated-animate__bounceInDown {
