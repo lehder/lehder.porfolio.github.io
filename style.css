@@ -907,6 +907,7 @@ footer {
         position: relative;
         z-index: 99;
         opacity: .75;
+        border-image: fill 0 linear-gradient(#0003, #000);
     }
 
     .fas .fa-biohazard .animate__animated-animate__bounceInRight {
