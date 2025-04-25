@@ -80,6 +80,7 @@ header {
     position: relative;
     z-index: 99;
     opacity: .90;
+    border-image: fill 0 linear-gradient(#0003, #000);
 }
 
 .container.header {
