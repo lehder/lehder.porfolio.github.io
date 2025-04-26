@@ -1065,6 +1065,7 @@ footer {
     .contenido-textos p {
         color: #fff;
         font-size: 1.5rem;
+        padding: 10px 15px 30px 15px;
     }
     .portafolio {
         padding:  30px 0 30px 0;
