@@ -987,7 +987,7 @@ footer {
     .contenido-descripcion .titulo span:first-child {
         font-size: 50px; 
         display: block;
-        font-weight: 500;
+        font-weight: 700;
     }
     
     .contenido-descripcion .titulo span:last-child {
@@ -1028,7 +1028,7 @@ footer {
     
     
     .contenido-descripcion {
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
     .titulo {
         font-size: 1.0rem;
