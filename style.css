@@ -4,7 +4,6 @@
 }
 body {
     font-family: 'open sans';  
-    /* background-color: rgb(39,39,39); */  
     background-color:#000;
     font-family: Bebas Neue, sans-serif;
 }
@@ -30,22 +29,7 @@ body {
     margin: 0 0.5rem;
     animation: bounce; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 15s; /* don't forget to set a duration! */
-
-   /*  background: linear-gradient(to right, rgb(0, 168, 253));
-     background-size: 200% auto;
-     -webkit-background-clip: text; 
-     -webkit-text-fill-color:transparent;  */
   }
- 
-/* header {
-    width: 100%;
-    height: 700px;
-    background: -webkit-linear-gradient(to right, hsla(207, 59%, 49%, 0.507), hsla(198, 95%, 48%, 0.507)), url(./vectores/gafas.jpeg);
-    background: linear-gradient(to right, hsla(207, 89%, 49%, 0.507), hsla(210, 89%, 56%, 0.507)), url(./vectores/gafas.jpeg); 
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
-} */
 
 /* Particules */
 
@@ -210,234 +194,10 @@ header {
 
 /* Particules */
 
-
-/* nav {
-    text-align: right;
-    padding: 30px 50px 0 0;
-}
-nav > a {
-    color: #fff;
-    font-weight: 300;
-    text-decoration: none;
-    margin-right: 10px;
-}
-nav > a:hover {
-    text-decoration: underline;
-    color: darkblue;
-}
-nav > a:active {
-    color: red;
-}
-nav > a::after {
-    content: " | ";
-}
-header .textos-header {
-    display: flex;
-    height: 430px;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    border: 30px;
-}
-.textos-header h1 {
-    color: whitesmoke;
-    font-weight: bolder;
-    font-size: 3.5rem;
-}
-.textos-header h2 {
-    font-size: 30px;
-    color: whitesmoke;
-    font-weight: bolder;
-    margin: 0 30px;
-}
-.wave {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
- */
-/* .button {
-    border-radius: 50px;
-    width: 250px;
-    border: 1px solid rgb(24, 23, 23);
-    height: 40px;
-    background: #F2F2F2;
-}*/
-
-/* .download {
-    border: 2px solid #fff;
-    height: 40px;
-    border: 30px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-}
-.download p{
-    color: #4d0686;
-    font-size: 25px;
-    text-decoration: none;
-}
-.download a {
-    text-decoration: none;
-}
-.download p:hover {
-    color: blue;
-}
-.download p:active {
-    color: red; 
-}  */
-
-/* Nuevo Button */
-
-/* .btn-80,
-.btn-80 *,
-.btn-80 :after,
-.btn-80 :before,
-.btn-80:after,
-.btn-80:before {
-  border: 0 solid;
-  box-sizing: border-box;
-}
-.btn-80 {
-  -webkit-tap-highlight-color: transparent;
-  -webkit-appearance: button;
-  background-color: rgb(59,83,160);
-  background-image: none;
-  color: #fff;
-  cursor: pointer;
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
-    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
-    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
-  font-size: 100%;
-  font-weight: 900;
-  line-height: 1.0;
-  margin: 0;
-  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
-  padding: 0;
-}
-.btn-80:disabled {
-  cursor: default;
-}
-.btn-80:-moz-focusring {
-  outline: auto;
-}
-.btn-80 svg {
-  display: block;
-  vertical-align: middle;
-}
-.btn-80 [hidden] {
-  display: none;
-}
-.btn-80 {
-  border: 2code .
-  px solid;
-  border-radius: 999px;
-  box-sizing: border-box;
-  display: block;
-  overflow: hidden;
-  padding: 1.2rem 3rem;
-  position: relative;
-  text-transform: uppercase;
-  margin: auto;
-}
-.btn-80 span {
-  font-weight: 700;
-  mix-blend-mode: plus-lighter;
-}
-.btn-80:before {
-  background: #fff;
-  content: "";
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-}
-.btn-80:hover:before {
-  -webkit-animation: progress-bar 1.2s;
-  animation: progress-bar 1.2s;
-}
-@-webkit-keyframes progress-bar {
-  0% {
-    opacity: 1;
-    width: 0;
-  }
-  10% {
-    opacity: 1;
-    width: 15%;
-  }
-  25% {
-    opacity: 1;
-    width: 25%;
-  }
-  40% {
-    opacity: 1;
-    width: 35%;
-  }
-  55% {
-    opacity: 1;
-    width: 75%;
-  }
-  60% {
-    opacity: 1;
-    width: 100%;
-  }
-  to {
-    opacity: 0;
-    width: 100%;
-  }
-}
-@keyframes progress-bar {
-  0% {
-    opacity: 1;
-    width: 0;
-  }
-  10% {
-    opacity: 1;
-    width: 15%;
-  }
-  25% {
-    opacity: 1;
-    width: 25%;
-  }
-  40% {
-    opacity: 1;
-    width: 35%;
-  }
-  55% {
-    opacity: 1;
-    width: 75%;
-  }
-  60% {
-    opacity: 1;
-    width: 100%;
-  }
-  to {
-    opacity: 0;
-    width: 100%;
-  }
-} */
-
-/* Animaciones para el header */
-
-
-
-/*  */
-
-
-
-
-
-/* Nuevo Button */
-
-
 /* Abaut us */ 
 
 main .sobre-nosotros {
     padding:  30px 0 60px 0;
-    /* background: #f2f2f2; */
     background-color:#000000; 
     margin: 30px;
     margin-left: 140px;
@@ -506,27 +266,19 @@ main .sobre-nosotros {
     position: relative;
     cursor: pointer;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
-    /* background: rgb(242,242,242); */
-    /* background: #5e5e5e; */
 }
-
 .imagen-port > img {
     width: 100%;
     border: 1px solid rgb(119, 119, 119);
     border-radius: 10px 10px;
-    /*height: 100%;*/
     object-fit: cover;
     display: block;
-   
 }
 .imagen-port p {
     font-weight: 300;
     font-size: large;
-   /* border: 1px solid rgb(46, 46, 46);*/
-    /* text-align: justify; */
     padding: 10px 10px 10px 10px;
     margin: 10px 10px 10px 10px;
-    /* background: #5e5e5e; */
     color: #fafafa;
 }
 .hover-galeria {
@@ -613,6 +365,7 @@ main .sobre-nosotros {
 .servicio-ind img {
     width: 90%;
 }
+
 .servicio-ind h3 {
     margin: 10px 0;
     font-size: 1.5rem;
