@@ -52,10 +52,11 @@ header {
 .container {
     width: 70%;
     max-width: 1200px;
-    background-size: 50rem;
+    background-size: 30rem;
     object-fit: cover;
     background-repeat: no-repeat;
-    background-image: url('./img/sinfondo.png');
+    /* background-image: url('./img/sinfondo.png'); */
+    background-image: url('./img/foto-portfolio.png');
     background-position: right;
     margin-left: auto; 
     margin-right: auto;
